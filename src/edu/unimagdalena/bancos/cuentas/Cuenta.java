@@ -4,7 +4,7 @@ public class Cuenta {
 	private final Persona titular;
 	private double saldo;
 	private EstadoCuenta estado;
-	private double[] ultimasOperaciones;
+	private double[] ultimasOperaciones = null;
 	
 	public Cuenta(Persona titular) {
 		this(titular, 100.0);
